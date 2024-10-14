@@ -1,0 +1,18 @@
+[package]
+name = "ghttp"
+version = "0.0.0"
+authors = ["Montasir Mirghani <contact@montasir.me>"]
+edition = "2021"
+description = "ghttp"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/dr-montasir/ghttp"
+repository = "https://github.com/dr-montasir/ghttp"
+readme = "README.md"
+keywords = ["http"]
+categories = ["web-programming"]
+
+[dependencies]
+
+[lib]
+name = "ghttp"
+path = "src/lib.rs"
